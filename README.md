@@ -1,3 +1,14 @@
+# Legal Disclaimer
+
+BPLS is provided "as is," without warranty of any kind, express or implied.  
+The authors and contributors are not responsible for any damages, losses, or issues that may arise from using this software.  
+By using BPLS, you agree that you do so at your own risk.  
+
+This project is in **Beta**. Features may change, break, or be incomplete.  
+Please report bugs or suggestions in the [Issues](https://github.com/LemonsandLimez/BPLS/issues) section.
+
+
+
 # BPLS is in Beta, if you find any bugs; Please go to the issues sectoin. Please give feedback, or ideas for new additoins in the issues section
 This is BPLS, Beginners Programing Language for Statistics
 # File Varients:
