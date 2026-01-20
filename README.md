@@ -1,3 +1,16 @@
+#### TL;DR
+
+### Purpose
+BPLS (Beginner Programming Language for Statistics) is a lightweight, beginner-oriented programming language for basic statistical calculations, object and group management, and simple file operations through an interactive interpreter.
+
+### Capabilities
+BPLS supports variable handling, object and group creation, basic statistical functions (such as SUM and AVG), object searching and modification, file and folder management, and saving/loading program state.
+
+### Legal Notice
+BPLS is provided **"as is"**, without warranty of any kind, express or implied.  
+The authors and contributors assume no liability for any damages, losses, or issues arising from the use of this software. Use is entirely at your own risk.
+
+
 # BPLS — Beginner Programming Language for Statistics
 
 ## Overview
