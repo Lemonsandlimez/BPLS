@@ -27,12 +27,12 @@ BPLS (Beginner Programming Language for Statistics) is built for newcomers to pr
 
 ## File Variants
 
-### Python (Recommended)
-- Requires **Python 3.6+** (3.9+ recommended)
+### GoLang (Recommended)
+- Requires **GoLang 1.11+** (1.18+ recommended)
 - Size: ~12 KB
-- Best option if Python is already installed
+- Best option if Go is already installed
 
-### Go
+### Python
 ⚠️ **Currently being converted to Python**  
 Not available at this time.
 
