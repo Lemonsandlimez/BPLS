@@ -1,4 +1,4 @@
-
+* All Python users, GoLang Code is currently being compiled. sorry!
 # BPLS — Beginner Programming Language for Statistics
 
 ## TL;DR
@@ -63,6 +63,7 @@ If you find bugs, have feedback, or ideas for new features, please report them i
 ```
 
 ### Python
+# 🗑️ Go code currently being compiled into Python, Sorry!
 Ensure Python 3.6+ is installed, then run:
 ```bash
 python BPLS.py
