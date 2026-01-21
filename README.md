@@ -163,6 +163,5 @@ BPLS is currently in **Beta**, and contributions are welcome.
 ---
 
 ## Legal Disclaimer
-BPLS is provided **"as is"**, without warranty of any kind, express or implied.  
-The authors and contributors assume no responsibility for any damages, losses, or issues arising from the use of this software.  
-By using BPLS, you agree that you do so **at your own risk**.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
