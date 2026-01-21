@@ -137,11 +137,15 @@ Ensure Python 3.6+ is installed, then run:
 ## Quick Start Example
 
 ### Code
-**CREATE GROUP stats
-CREATE OBJ x
-VARIABLE "num" IS 42
-MOVE VARIABLE num TO stats
-SUM stats**
+`CREATE GROUP stats`
+
+`CREATE OBJ x`
+
+`VARIABLE "num" IS 42`
+
+`MOVE VARIABLE num TO stats`
+
+`SUM stats`
 
 
 ### Expected Output
