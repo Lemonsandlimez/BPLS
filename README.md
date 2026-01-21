@@ -75,9 +75,9 @@ Ensure Python 3.6+ is installed, then run:
 
 
 ### Object & Group Creation
-'CREATE OBJ "name"`
+`CREATE OBJ "name"`
 
-`CREATE GROUP "name`
+`CREATE GROUP "name"`
 
 ### Screen Control
 `CLEAR`
@@ -106,7 +106,7 @@ Ensure Python 3.6+ is installed, then run:
 
 
 ### Deletion
-`DELETE OBJ "name"'
+`DELETE OBJ "name"`
 
 `DELETE GROUP "name"`
 
