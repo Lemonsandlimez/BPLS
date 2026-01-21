@@ -51,6 +51,7 @@ BPLS (Beginner Programming Language for Statistics) is built for newcomers to pr
 ### Windows
 1. Download `BPLS.exe` from the Releases page
 2. Run via File Explorer or terminal:
+
 `./BPLS.exe`
 
 
@@ -62,6 +63,7 @@ Ensure Python 3.6+ is installed, then run:
 ### Go
 1. Ensure GoLang 1.11+ Is installed (1.18+ Recomended)
 2. Open terminal and run:
+
 `go run BPLS.go`
 
 ---
@@ -73,45 +75,55 @@ Ensure Python 3.6+ is installed, then run:
 
 
 ### Object & Group Creation
-'CREATE OBJ <name>`
-`CREATE GROUP <name>`
+'CREATE OBJ "name"`
 
+`CREATE GROUP "name`
 
 ### Screen Control
-'''CLEAR'''
+`CLEAR`
 
 
 ### Object Location & Search
-`LOC <obj>`
-`FIND ITEM <n> OF <group>`
+`LOC "obj"`
+
+`FIND ITEM n" OF "group"`
+
 `FIND OBJ "objname" FROM "groupname"`
 
 
 ### Math Operations
 `SUM <group>`
+
 `AVG <group>`
 
 
 ### Modification Commands
 `SWAP "word" WITH "otherword" IN "group"`
+
 `REMOVE OBJ "objname" FROM "groupname"`
+
 `MOVE VARIABLE "varname" TO "group"`
 
 
 ### Deletion
 `DELETE OBJ "name"'
+
 `DELETE GROUP "name"`
 
 
 ### Saving & Loading
 `SAVE CODE TO "filename"`
+
 `LOAD "filename"`
 
 
 ### File & Folder Management
 `MAKE FILE "file_name"`
+
 `MAKE FOLDER "folder_name"`
+
 `MOVE FILE <file_name> TO <folder_name>`
+
 `PUT "group_name" IN "file_name"`
 
 
@@ -125,11 +137,11 @@ Ensure Python 3.6+ is installed, then run:
 ## Quick Start Example
 
 ### Code
-`CREATE GROUP stats`
-`CREATE OBJ x`
-`VARIABLE "num" IS 42`
-`MOVE VARIABLE num TO stats`
-`SUM stats`
+`CREATE GROUP stats
+CREATE OBJ x
+VARIABLE "num" IS 42
+MOVE VARIABLE num TO stats
+SUM stats`
 
 
 ### Expected Output
