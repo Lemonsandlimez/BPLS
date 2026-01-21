@@ -1,54 +1,45 @@
-* All Python users, GoLang Code is currently being compiled. sorry!
 # BPLS — Beginner Programming Language for Statistics
 
 ## TL;DR
+**BPLS** is a lightweight, beginner-friendly programming language designed for simple statistical calculations, structured data management, and basic file operations through an interactive interpreter.
 
-**Purpose**  
-BPLS (Beginner Programming Language for Statistics) is a lightweight, beginner-oriented programming language designed for basic statistical calculations, object and group management, and simple file operations through an interactive interpreter.
-
-**Capabilities**
-- Variable handling  
-- Object and group creation  
-- Basic statistical functions (`SUM`, `AVG`)  
-- Object searching, modification, and deletion  
-- File and folder management  
-- Saving and loading program state  
-
-**Legal Notice**  
-BPLS is provided **"as is"**, without warranty of any kind, express or implied.  
-The authors and contributors assume no liability for any damages, losses, or issues arising from the use of this software. Use is entirely at your own risk.
+🚧 **Project Status: Beta**
+- Bugs are expected
+- Features may change
+- Feedback is welcome
 
 ---
 
-## Overview
-BPLS is a beginner-friendly programming language focused on simple statistical operations and structured data management.
+## Purpose
+BPLS (Beginner Programming Language for Statistics) is built for newcomers to programming who want an easy way to work with numbers, groups, and basic statistics without complex syntax.
 
-🚧 **Project Status: Beta**
-- Bugs are expected  
-- Features may change or be incomplete  
-- Feedback is appreciated  
+---
 
-If you find bugs, have feedback, or ideas for new features, please report them in the  
-[Issues](https://github.com/LemonsandLimez/BPLS/issues) section.
+## Key Capabilities
+- Variable handling
+- Object and group creation
+- Basic statistical functions (`SUM`, `AVG`)
+- Object searching, modification, and deletion
+- File and folder management
+- Saving and loading program state
 
 ---
 
 ## File Variants
 
-### Python
-- Requires Python **3.6+** (Recommended: 3.9+)  
-- Size: ~12 KB  
+### Python (Recommended)
+- Requires **Python 3.6+** (3.9+ recommended)
+- Size: ~12 KB
 - Best option if Python is already installed
 
 ### Go
-- Requires Go **1.10+** (Recommended: 1.18+)  
-- Size: ~12 KB  
-- Faster than Python if Go is pre-installed
+⚠️ **Currently being converted to Python**  
+Not available at this time.
 
 ### Windows Executable (.exe)
-- Windows 7+  
-- Size: ~3.26 MB  
-- Does not require Python or Go  
+- Windows 7+
+- Size: ~3.26 MB
+- No dependencies required
 - Heaviest option, but easiest for users without dependencies
 
 ---
@@ -56,119 +47,102 @@ If you find bugs, have feedback, or ideas for new features, please report them i
 ## Installation
 
 ### Windows
-1. Download `BPLS.exe` from Releases  
-2. Run from File Explorer or terminal:
-```bash
+1. Download `BPLS.exe` from the Releases page
+2. Run via File Explorer or terminal:
 ./BPLS.exe
-```
+
 
 ### Python
-# 🗑️ Go code currently being compiled into Python, Sorry!
 Ensure Python 3.6+ is installed, then run:
-```bash
 python BPLS.py
-```
+
 
 ### Go
-Ensure Go 1.10+ is installed, then run:
-```bash
-go run BPLS.go
-```
+🚫 Not currently available — Go code is being converted into Python.
 
 ---
 
 ## BPLS Interpreter Command Guide
 
 ### Variable Management
-```
 VARIABLE "varname" IS "value"
-```
 
-### Object and Group Creation
-```
+
+### Object & Group Creation
 CREATE OBJ <name>
 CREATE GROUP <name>
-```
+
 
 ### Screen Control
-```
 CLEAR
-```
 
-### Object Location and Search
-```
+
+### Object Location & Search
 LOC <obj>
 FIND ITEM <n> OF <group>
 FIND OBJ "objname" FROM "groupname"
-```
+
 
 ### Math Operations
-```
 SUM <group>
 AVG <group>
-```
+
 
 ### Modification Commands
-```
 SWAP <word> WITH <otherword> IN <group>
 REMOVE OBJ "objname" FROM "groupname"
 MOVE VARIABLE <varname> TO <group>
-```
+
 
 ### Deletion
-```
 DELETE OBJ <name>
 DELETE GROUP <name>
-```
 
-### Saving and Loading
-```
+
+### Saving & Loading
 SAVE CODE TO "filename"
 LOAD <filename>
-```
 
-### File and Folder Management
-```
+
+### File & Folder Management
 MAKE FILE "file_name"
 MAKE FOLDER "folder_name"
 MOVE FILE <file_name> TO <folder_name>
 PUT "group_name" IN "file_name"
-```
+
 
 ### Exit Commands
-```
 EXIT
 QUIT
-```
+
 
 ---
 
 ## Quick Start Example
 
 ### Code
-```
 CREATE GROUP stats
 CREATE OBJ x
 VARIABLE "num" IS 42
 MOVE VARIABLE num TO stats
 SUM stats
-```
+
 
 ### Expected Output
-```
 SUM of stats = 42
-```
+
 
 ---
 
 ## Contributing
-BPLS is in **Beta**. Contributions are welcome.
+BPLS is currently in **Beta**, and contributions are welcome.
 
-- Report bugs or suggest features via the Issues section  
-- Submit pull requests for improvements or fixes  
+- Report bugs or suggest features via the Issues section
+- Submit pull requests for improvements or fixes
 
 ---
 
 ## Legal Disclaimer
 BPLS is provided **"as is"**, without warranty of any kind, express or implied.  
-The authors and contributors are not responsible for any damages, losses, or issues that may arise from using this software. By using BPLS, you agree that you do so at your own risk.
+The authors and contributors assume no responsibility for any damages, losses, or issues arising from the use of this software.  
+By using BPLS, you agree that you do so **at your own risk**.
