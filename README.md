@@ -29,13 +29,14 @@ BPLS (Beginner Programming Language for Statistics) is built for newcomers to pr
 
 ### GoLang (Recommended)
 - Requires **GoLang 1.11+** (1.18+ recommended)
-- Size: ~12 KB
+- Size: ~12 KB but cant make files, make folders, or put groups in file
+- Can Save into pre-made files
 - Best option if Go is already installed
 
 ### Python
 - Requires **Python 3.6+**
 - Size ~16KB
-- Slower than Go, and heavier
+- Slower than Go, and heavier, but can do `MAKE FILE` `MAKE FOLDER` and `MOVE "group" TO "file"
 - (Not recomended unless python already installed)
 
 ### Windows Executable (.exe)
